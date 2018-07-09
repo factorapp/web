@@ -1,4 +1,4 @@
-baseURL = "https://gohugo.io/"
+baseURL = "https://factorapp.io/"
 paginate =  100
 defaultContentLanguage = "en"
 enableEmoji = true
@@ -6,10 +6,10 @@ enableEmoji = true
 footnotereturnlinkcontents = "↩"
 languageCode = "en-us"
 metaDataFormat = "yaml"
-title = "Hugo"
+title = "Factor"
 theme = "gohugoioTheme"
 
-googleAnalytics = "UA-7131036-4"
+#googleAnalytics = "UA-122020190-1"
 
 pluralizeListTitles = false
 
@@ -64,7 +64,7 @@ weight = 10
 pattern = "2006"
 
 [social]
-twitter = "GoHugoIO"
+twitter = "FactorAppIO"
 
 #CUSTOM PARAMS
 [params]
@@ -74,11 +74,11 @@ twitter = "GoHugoIO"
   ## Setting this to true will add a "noindex" to *EVERY* page on the site
   removefromexternalsearch = false
   ## Gh repo for site footer (include trailing slash)
-  ghrepo = "https://github.com/gohugoio/hugoDocs/"
+  ghrepo = "https://github.com/factorapp/web/"
   ## GH Repo for filing a new issue
-  github_repo = "https://github.com/gohugoio/hugo/issues/new"
+  github_repo = "https://github.com/factorapp/factor/issues/new"
   ### Edit content repo (set to automatically enter "edit" mode; this is good for "improve this page" links)
-  ghdocsrepo = "https://github.com/gohugoio/hugoDocs/tree/master/docs"
+  ghdocsrepo = "https://github.com/factorapp/web/tree/master/docs"
   ## Gitter URL
   gitter = "https://gitter.im/spf13/hugo"
   ## Discuss Forum URL
@@ -87,7 +87,7 @@ twitter = "GoHugoIO"
   gtmid = ""
 
   # First one is picked as the Twitter card image if not set on page.
-  images = ["images/gohugoio-card.png"]
+  images = ["images/rocks.png"]
 
   flex_box_interior_classes = "flex-auto w-100 w-40-l mr3 mb3 bg-white ba b--moon-gray nested-copy-line-height"
 
@@ -121,7 +121,7 @@ anchor = "smart"
 # High level items
 
 [[menu.docs]]
-  name = "About Hugo"
+  name = "About Factor"
   weight = 1
   identifier = "about"
   url = "/about/"
@@ -133,12 +133,6 @@ anchor = "smart"
   url = "/getting-started/"
 
 
-[[menu.docs]]
-  name = "Themes"
-  weight = 15
-  identifier = "themes"
-  post = "break"
-  url = "/themes/"
 
 # Core Menus
 
@@ -149,24 +143,6 @@ anchor = "smart"
   post = "expanded"
   url = "/content-management/"
 
-[[menu.docs]]
-  name = "Templates"
-  weight = 25
-  identifier = "templates"
-
-  url = "/templates/"
-
-[[menu.docs]]
-  name = "Functions"
-  weight = 30
-  identifier = "functions"
-  url = "/functions/"
-
-[[menu.docs]]
-  name = "Variables"
-  weight = 35
-  identifier = "variables"
-  url = "/variables/"
 
 [[menu.docs]]
   name = "CLI"
